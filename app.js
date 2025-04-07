@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const port = 8080;
+const port = process.env.PORT || 8080; 
 const ejsMate = require("ejs-mate");
 const path = require("path");
 const mongoose = require("mongoose");
@@ -20,9 +20,9 @@ main().then(() =>{
     console.log(err);
 });
 
-async function main(){
-    await mongoose.connect("mongodb://127.0.0.1:27017/portfolio")
-}
+async function main() {
+    await mongoose.connect(process.env.MONGO_URI || "mongodb://127.0.0.1:27017/portfolio");
+  }
 
 app.get("/",(req,res) =>{
     res.render("index.ejs");
