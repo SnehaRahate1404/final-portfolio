@@ -5,6 +5,8 @@ const ejsMate = require("ejs-mate");
 const path = require("path");
 const mongoose = require("mongoose");
 const Msg = require("./models/message.js");
+require("dotenv").config();
+
 
 
 app.set("view engine" , "ejs");
