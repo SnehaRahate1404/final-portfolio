@@ -22,3 +22,11 @@ Implemented key interactive behaviors across the site.
 
 ☁ Deployment using Render.com, GitHub & MongoDB Atlas
 The website is live and running with Render.com for hosting, GitHub for version control and MongoDB Atlas for the cloud database.
+
+# Steps to run the project 
+1)Check the current directly and check whether it consists of index.js file by running the ls command on terminal
+2)Run npm install (to install the node modules)
+3)After successful installation run the command nodemon index.js to start the server
+4)Message appears "App started successfully" " Database connected successfully" in the terminal
+5)Open the chrome or any other relevant browser
+6) Paste the given link to open the website : localhost:8080 and hit enter.
