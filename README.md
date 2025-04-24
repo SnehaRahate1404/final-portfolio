@@ -30,3 +30,8 @@ The website is live and running with Render.com for hosting, GitHub for version 
 4)Message appears "App started successfully" " Database connected successfully" in the terminal
 5)Open the chrome or any other relevant browser
 6) Paste the given link to open the website : localhost:8080 and hit enter.
+
+# Required Installations
+1) Nodejs
+2) MongoDb for database
+3) Visual studio code for starting the project
