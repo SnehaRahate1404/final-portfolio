@@ -154,6 +154,7 @@ header::before{
         display: flex;
         flex-direction: column !important;
     }
+
     header{
         height: fit-content !important;
     }
@@ -255,7 +256,7 @@ header::before{
 
 .header-heading p{
     border-radius: 30px !important;
-    font-size: xxx-large;
+    font-size: xx-large;
     color: rgb(255 0 137);
     margin: 0 !important;
     padding: 0 !important;
@@ -331,7 +332,7 @@ nav ul li a:hover{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 600px;
+    height: 500px;
 }
 
 .header-info-img{
@@ -514,6 +515,7 @@ a{
 .about-more button:hover{
     box-shadow: 2px 2px 20px #970808;
 }
+
 #aboutOverlay {
     display: none;
     justify-content: center;
@@ -528,7 +530,21 @@ a{
     overflow-y: auto;
     opacity: 0;
     transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
-    /* padding: 20px; */
+    padding: 20px;
+}
+
+
+.internship1 ,.internship2 , .internship3{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start !important;
+    align-items: flex-start;
+    text-align: left;
+    background-color: rgba(60, 60, 60, 0.612);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
 }
 
 @media (min-width : 700px) and (max-width : 1024px){
@@ -581,6 +597,7 @@ a{
     box-shadow: 0 10px 30px rgba(255, 255, 255, 0.1);
     transform: translateY(-20px);
     transition: transform 0.3s ease-in-out;
+    margin-top: 40em
 }
 
 .about-overlay img {
@@ -603,7 +620,7 @@ a{
 }
 
 .education {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 95, 212, 0.1);
     padding: 15px;
     border-radius: 10px;
     margin: 10px 0;
@@ -749,7 +766,7 @@ a{
     border: 2px solid white;
     border-radius: 20px;
     width: 300px;
-    height: 450px;
+    height: 500px;
     transition: 1s ease;
 }
 
@@ -832,6 +849,7 @@ textarea{
     margin-left: 10px;
     transition: 3s ease;
     border-radius: 10px;
+    color: white;
 }
 input:focus , textarea:focus{
     outline: none;
